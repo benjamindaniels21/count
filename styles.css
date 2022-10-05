@@ -1,0 +1,70 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 300px;
+    width: 300px;
+    background-color: aqua;
+}
+
+
+.big-count{
+    display: flex;
+    height: 100px;
+    width: 100px;
+    background-color: bisque;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.big-count p {
+   margin-left: 45px;
+   margin-top: 40px;
+}
+
+.add{
+    height:30px;
+    width:30px;
+    background-color: blueviolet;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 75px;
+    margin-left: -70px;
+}
+
+.add:hover{
+    cursor: pointer;
+}
+
+.subtract:hover {
+    cursor: pointer;
+}
+
+.add p{
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 10px;
+    color: white;
+}
+
+.subtract {
+    height: 30px;
+    width: 30px;
+    background-color: greenyellow;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 75px;
+    margin-left: 70px;
+}
+
+.subtract p {
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 12px;
+}
